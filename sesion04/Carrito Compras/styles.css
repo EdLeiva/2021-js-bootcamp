@@ -1,6 +1,17 @@
 body{
-    background: skyblue;
+    background: rgb(5, 105, 145);
     
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-align: center;
+}
+
+.wrap{
+    width: 1250px;
+    margin: 0px auto;
 }
 
 #section{
@@ -10,9 +21,35 @@ body{
     border: 1px solid #ccc;
 }
 
-#nombrearticulo{
+#name{
     height: 30px;
     width: 178px;
+}
+
+#price{
+    height: 30px;
+    width: 178px;
+}
+
+#url{
+    height: 30px;
+    width: 178px;
+}
+
+#category{
+    height: 30px;
+    width: 178px;
+}
+
+#upload{
+    height: 30px;
+    width: 130px;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
 
 }
+
     
